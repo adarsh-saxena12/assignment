@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 
 interface Post {
@@ -16,7 +16,7 @@ const columns: GridColDef[] = [
   
 ];
 
-const SuccessComponent1: React.FC = () => {
+const SuccessComponent1 = () => {
   const [data, setData] = useState<Post[]>([]);
 
   useEffect(() => {
