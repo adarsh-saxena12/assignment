@@ -1,6 +1,4 @@
 # React + TypeScript + Vite
-# Page 1 / Home page
-![Alt text](./utils/images/page1.png)
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
